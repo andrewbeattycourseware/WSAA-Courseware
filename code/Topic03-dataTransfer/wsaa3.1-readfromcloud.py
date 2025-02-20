@@ -1,6 +1,6 @@
 import requests
 import json
-
+# this is flakey at the moment
 url = "https://api.coindesk.com/v1/bpi/currentprice.json"
 response = requests.get(url)
 data = response.json()
